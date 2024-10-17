@@ -7,7 +7,7 @@ public class GameLogic {
         this.arr = arr;
     }
 
-    public void printBaseTotal() {
+    void printBaseTotal() {
         for(int i = 1; i<level; i++) {
             for(int j = 0; j<arr.length; j++) {
                 if(i%arr[j] == 0) {
